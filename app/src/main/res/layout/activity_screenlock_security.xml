@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScreenlockSecurityActivity"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/textView_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/screenlocksecurity_activity_explanation"
+        android:textSize="23sp"
+        android:gravity="center"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="35dp"/>
+    <Switch
+        android:id="@+id/switch_screenlocksecurity"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:switchMinWidth="55dp"
+
+        app:layout_constraintTop_toBottomOf="@id/textView_explanation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

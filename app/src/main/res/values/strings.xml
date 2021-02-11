@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">İstenmeyen Kişi Engeli</string>
+    <string name="accessibility_label">Accessibility_Service_Label</string>
+    <string name="accessibility_service_description">İstenmeyen kişi engeli</string>
+    <string name="button_apply_text">Uygula</string>
+    <string name="screenlocksecurity_menu_button_title">Uygulama erişimini güvenli hale getir</string>
+    <string name="screenlocksecurity_activity_explanation">Uygulamanın her açılışında kilit ekranınızda kullandığınız desen/PIN sorulacak:</string>
+</resources>
